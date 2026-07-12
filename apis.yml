@@ -19,6 +19,8 @@ created: '2026-05-04'
 modified: '2026-05-04'
 specificationVersion: '0.19'
 common:
+  - type: DomainSecurity
+    url: security/liberty-energy-domain-security.yml
   - type: Website
     url: https://libertyenergy.com
   - type: Customers
@@ -31,6 +33,8 @@ common:
     url: https://libertyenergy.com/privacy-policy/
   - type: LinkedIn
     url: https://www.linkedin.com/company/liberty-energy/
+  - url: https://libertyenergy.com/feed/
+    type: Blog
 maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com
